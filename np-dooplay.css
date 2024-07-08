@@ -1,0 +1,9 @@
+.npbutton-custommenu {
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 4px;
+  background-color: red;
+}
