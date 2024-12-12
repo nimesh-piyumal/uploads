@@ -1,203 +1,53 @@
-/* Global Styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: #f3f4f8;
-  color: #0a0a0a;
-  font-size: 14px;
-  line-height: 1.43;
-  margin: 0;
-  min-width: 600px;
-  padding: 0;
-  width: 100% !important;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-/* Container and Layout */
-.miro__container {
-  max-width: 600px;
-  min-width: 600px;
-  margin: 0 auto;
-  text-align: left;
-  background-color: #fff;
-}
-
-.miro__content-wrapper {
-  padding: 0;
-  margin: 0;
-  padding-top: 30px;
-}
-
-.miro__content {
-  padding: 20px;
-  background-color: #fff;
-}
-
-.miro__header {
-  padding: 20px 40px;
-  background-color: #fff;
-  border-bottom: 2px solid #e1e0e7;
-}
-
-.miro__header-content {
-  width: 100%;
+/* From Uiverse.io by Yaya12085 */ 
+.form {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
 }
 
-.miro__col-header-logo {
-  padding-top: 10px;
-  width: 50%;
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black
 }
 
-.miro__col-header-btn {
-  width: 50%;
-  text-align: right;
-  padding-top: 10px;
-}
-
-.miro-btn {
-  background-color: #2a79ff;
-  border: none;
-  color: #fff;
-  padding: 12px 25px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  text-align: center;
-  display: inline-block;
-}
-
-.miro-btn:hover {
-  background-color: #1f5bb5;
-}
-
-/* Title and Body Section */
-.miro__content-body {
-  padding: 40px 40px 36px;
-}
-
-.miro-title-block {
-  text-align: center;
-  padding: 20px 0;
-}
-
-.miro-title-block__title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #050038;
-  margin-bottom: 15px;
-}
-
-.miro-title-block__subtitle {
-  font-size: 18px;
-  font-weight: 400;
-  color: #050038;
-  opacity: 0.7;
-  margin-bottom: 30px;
-}
-
-.miro-confirmation-code-block {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.miro-confirmation-code-block__code {
-  background-color: #f3f4f8;
-  border-radius: 8px;
-  font-size: 48px;
-  font-weight: 700;
-  color: #050038;
-  height: 100px;
-  line-height: 100px;
-  display: inline-block;
-  width: 100%;
-}
-
-/* Separator Line */
-.miro__sep {
-  background-color: #e1e0e7;
-  height: 1px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-/* Footer Section */
-.miro__footer {
-  padding: 40px;
-  background-color: #fff;
-  text-align: center;
-}
-
-.miro__footer-title {
+.message {
+  color: #a3a3a3;
   font-size: 14px;
-  color: #050038;
-  opacity: 0.7;
-  line-height: 1.5;
-  font-weight: 400;
+  margin-top: 4px;
+  text-align: center
 }
 
-.miro__footer-title a {
-  color: #2a79ff;
-  font-weight: 700;
+.inputs {
+  margin-top: 10px
 }
 
-.miro__footer-title a:hover {
-  color: #1f5bb5;
+.inputs input {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #d2d2d2;
+  margin: 0 10px;
 }
 
-/* Responsiveness */
-@media only screen and (max-width: 600px) {
-  .miro__container {
-    width: 100%;
-    padding: 10px;
-  }
+.inputs input:focus {
+  border-bottom: 1.5px solid royalblue;
+  outline: none;
+}
 
-  .miro__header-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .miro__col-header-logo {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-
-  .miro__col-header-btn {
-    width: 100%;
-    padding-top: 10px;
-  }
-
-  .miro-btn {
-    width: 100%;
-    padding: 12px;
-  }
-
-  .miro-title-block__title {
-    font-size: 32px;
-  }
-
-  .miro-title-block__subtitle {
-    font-size: 16px;
-  }
-
-  .miro-confirmation-code-block__code {
-    font-size: 40px;
-  }
+.action {
+  margin-top: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  align-self: end;
 }
