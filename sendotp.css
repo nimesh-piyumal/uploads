@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+  background-color: #f3f4f8;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0a0a0a;
+  font-size: 14px;
+  padding: 0;
+  min-width: 600px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  vertical-align: top;
+}
+
+.miro__container {
+  max-width: 600px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.miro__content-wrapper {
+  padding-top: 43px;
+}
+
+.miro__content {
+  background-color: #fff;
+}
+
+.miro__header {
+  padding: 0 40px;
+}
+
+.miro__header-content {
+  width: 100%;
+}
+
+.miro__col-header-logo {
+  width: 50%;
+  padding-top: 32px;
+}
+
+.miro__col-header-btn {
+  width: 50%;
+  padding-top: 26px;
+  text-align: right;
+}
+
+.miro-btn {
+  background-color: #fff;
+  border: 1px solid #050038;
+  border-radius: 4px;
+  color: #050038;
+  height: 48px;
+  line-height: 48px;
+  width: 128px;
+  display: inline-block;
+  text-align: center;
+}
+
+.miro__content-body {
+  padding: 0 40px;
+}
+
+.miro-title-block {
+  padding: 40px;
+}
+
+.miro-title-block__title {
+  color: #050038;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.miro-title-block__subtitle {
+  color: #050038;
+  font-size: 20px;
+  margin-top: 16px;
+  opacity: 0.6;
+}
+
+.miro-confirmation-code-block {
+  padding: 0 40px;
+}
+
+.miro-confirmation-code-block__code {
+  background-color: #f3f4f8;
+  border-radius: 4px;
+  color: #050038;
+  font-size: 48px;
+  height: 128px;
+  line-height: 128px;
+  text-align: center;
+}
+
+.miro__sep {
+  background-color: #e1e0e7;
+  height: 1px;
+}
+
+.miro__footer {
+  padding: 42px 0 72px 0;
+  text-align: center;
+}
+
+.miro__footer-title {
+  color: #050038;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.miro__footer-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .miro__content-wrapper {
+    padding: 20px;
+  }
+
+  .miro__col-header-logo, .miro__col-header-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .miro__col-header-btn {
+    padding-top: 10px;
+  }
+
+  .miro-title-block__title {
+    font-size: 32px;
+  }
+
+  .miro-title-block__subtitle {
+    font-size: 18px;
+  }
+
+  .miro-confirmation-code-block__code {
+    font-size: 36px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .miro-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .miro__footer-title {
+    font-size: 14px;
+  }
+}
